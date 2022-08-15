@@ -17,32 +17,41 @@ Flow chart는 하단과 같습니다.
 
 
 
-## 2. 무인공병회수기 입지선정: Clustering
+## 2. 무인공병회수기 입지선정
 ### 2-1) 데이터 수집 
 - code: `데이터 크롤링 및 전처리 Final.ipynb`
+- 
 
 ### 2-2) 데이터 전처리 및 파생변수 생성 
 - code: `데이터 크롤링 및 전처리 Final.ipynb`
+- 
 
 ### 2-3) 행정동별 쓰레기 배출량 예측 
 - code: `쓰레기 배출량 예측 Final.ipynb`
+- 
 
 ### 2-4) Clustering 
 - code: `행정동 Clustering_final.ipynb`
+- <img src="(https://user-images.githubusercontent.com/67568001/184703205-a495643c-59cd-48c2-b05f-662473a1ef0d.JPG" width="400" height="300"/>
 
 ### 2-5) 설치장소 입지선정 
 - code: `입지분석 최척화 report.ipynb`
+- <img src="https://user-images.githubusercontent.com/67568001/184703215-02e94da3-44f5-4cb4-a00e-de934898e31b.JPG" width="400" height="300"/>
 
 
 ## 3. 훼손 바코드 복원 모델링
+<img src="https://user-images.githubusercontent.com/67568001/184703228-a4b966e5-8bfd-4085-9994-b3265ecc9b82.JPG" width="400" height="300"/>
 ### 3-1) FastRCNN 
 - code: `Object-detection_FastRCNN_train.ipynb`
+- 
 
 ### 3-2) DAE 
 - code: `Barcode_Scanning_Final(Fastrcnn_DAE).ipynb`
+- 
 
 ### 3-3) Prototype 
 - code: `Barcode_Scanning_Final(Fastrcnn_DAE).ipynb`
+- 
 
 
 ## 4. 보완점
