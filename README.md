@@ -11,7 +11,7 @@
 
 Flow chart는 하단과 같습니다.
 
-<img src="https://user-images.githubusercontent.com/67568001/184703142-f0680f30-1598-4211-8d85-439f04566d43.JPG" width="400" height="300"/> <img src="https://user-images.githubusercontent.com/67568001/184703155-9041e4d5-7726-4c83-8527-b32399da1bd7.JPG" width="400" height="300"/>
+<img src="https://user-images.githubusercontent.com/67568001/184703142-f0680f30-1598-4211-8d85-439f04566d43.JPG" width="500" height="400"/> <img src="https://user-images.githubusercontent.com/67568001/184703155-9041e4d5-7726-4c83-8527-b32399da1bd7.JPG" width="500" height="400"/>
 
 서울시 편의점을 대상으로한 무인공병회수기 입지선정 프로젝트, 무인공병회수기의 
 
