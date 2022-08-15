@@ -10,8 +10,10 @@
 현 서울특별시의 제로웨이스트 주요 사업으로는 “포장폐기물저감/제로웨이스트 인증제/빈병무인회수기설치/찐플리마켓/자원순환교육” 등이 존재합니다. 그러나 현 서울시의 제로웨이스트 프로젝트 중 “빈병 무인회수기 설치” 공약의 구체적인 실행 계획이 부족하고,『자원순환보증금관리센터』에 의하면 2022년 기준 현 서울시에는 24개의 무인 공병 회수기만이 설치되었다는 문제점이 존재합니다. 이러한 문제의식에서 시작하여, 서울시의 제로 웨이스트 프로젝트의 성공적인 이행을 위해 “빈병 무인회수기”가 우선적으로 필요한 지역을 선정하고, 무인공병회수기의 문제(훼손된 바코드 인식 불가)를 해결할 수 있는 추가 프로젝트를 진행하였습니다.
 
 Flow chart는 하단과 같습니다.
-
-<img src="https://user-images.githubusercontent.com/67568001/184703142-f0680f30-1598-4211-8d85-439f04566d43.JPG" width="400" height="300"/> <img src="https://user-images.githubusercontent.com/67568001/184703155-9041e4d5-7726-4c83-8527-b32399da1bd7.JPG" width="400" height="300"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67568001/184703142-f0680f30-1598-4211-8d85-439f04566d43.JPG" width="400" height="300"/>
+  <img src="https://user-images.githubusercontent.com/67568001/184703155-9041e4d5-7726-4c83-8527-b32399da1bd7.JPG" width="400" height="300"/>
+</p>
 
 
 
