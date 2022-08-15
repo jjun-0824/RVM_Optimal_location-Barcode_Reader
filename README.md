@@ -32,15 +32,16 @@ Flow chart는 하단과 같습니다.
 
 ### 2-4) Clustering 
 - code: `행정동 Clustering_final.ipynb`
-- <img src="(https://user-images.githubusercontent.com/67568001/184703205-a495643c-59cd-48c2-b05f-662473a1ef0d.JPG" width="400" height="300"/>
+<img src="https://user-images.githubusercontent.com/67568001/184703205-a495643c-59cd-48c2-b05f-662473a1ef0d.JPG" width="500" height="400"/>
 
 ### 2-5) 설치장소 입지선정 
 - code: `입지분석 최척화 report.ipynb`
-- <img src="https://user-images.githubusercontent.com/67568001/184703215-02e94da3-44f5-4cb4-a00e-de934898e31b.JPG" width="400" height="300"/>
+<img src="https://user-images.githubusercontent.com/67568001/184703215-02e94da3-44f5-4cb4-a00e-de934898e31b.JPG" width="500" height="400"/>
 
 
 ## 3. 훼손 바코드 복원 모델링
-<img src="https://user-images.githubusercontent.com/67568001/184703228-a4b966e5-8bfd-4085-9994-b3265ecc9b82.JPG" width="400" height="300"/>
+<img src="https://user-images.githubusercontent.com/67568001/184703228-a4b966e5-8bfd-4085-9994-b3265ecc9b82.JPG" width="500" height="400"/>
+
 ### 3-1) FastRCNN 
 - code: `Object-detection_FastRCNN_train.ipynb`
 - 
