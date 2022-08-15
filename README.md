@@ -20,22 +20,24 @@ Flow chart는 하단과 같습니다.
 ## 2. 무인공병회수기 입지선정
 ### 2-1) 데이터 수집 
 - code: `데이터 크롤링 및 전처리 Final.ipynb`
-- 
+- Kakao API를 통해 대형마트, 일반음식점, 단란주점 등의 행정동, 위경도를 스크랩핑하였습니다.
 
 ### 2-2) 데이터 전처리 및 파생변수 생성 
 - code: `데이터 크롤링 및 전처리 Final.ipynb`
-- 
+- RCBD를 이용한 `환경인식지수` 파생변수 생성, 그 이외에 `서울시 `, ``, ``, ``, 
 
 ### 2-3) 행정동별 쓰레기 배출량 예측 
 - code: `쓰레기 배출량 예측 Final.ipynb`
-- 
+- 행정동 clustering에 주요하게 쓰일 `행정동별 쓰레기 배출량`을 예측합니다. 2022년 기준 강서구 행정동별 쓰레기 배출량 데이터에 회귀분석을 진행하여 타 행정동의 쓰레기 배출량을 예측하는 다중선형회귀모델을 생성하였습니다.
 
 ### 2-4) Clustering 
 - code: `행정동 Clustering_final.ipynb`
+- `K-means` `GMM` `DBSCAN` 등 다양한 클러스터링 기법을 통해 무인공병회수기를 설치할 4개의 행정동(중계 2.3동, 상계 5동, 등촌 3동, 가양3동)을 선정하였습니다.
 <img src="https://user-images.githubusercontent.com/67568001/184703205-a495643c-59cd-48c2-b05f-662473a1ef0d.JPG" width="600" height="450"/>
 
 ### 2-5) 설치장소 입지선정 
 - code: `입지분석 최척화 report.ipynb`
+- 선정된 행정동 내 무인공병회수기를 설치할 편의점 정보를 수집 후 도로 기준 거리행렬(cost matrix)을 구하였습니다. 가중치는 연면적을 사용하고 이를 기반으로 p-median 입지선정을 진행하였습니다. 선정된 최종 편의점들은 코드를 참고하시길 바랍니다.
 <img src="https://user-images.githubusercontent.com/67568001/184703215-02e94da3-44f5-4cb4-a00e-de934898e31b.JPG" width="600" height="450"/>
 
 
@@ -44,15 +46,14 @@ Flow chart는 하단과 같습니다.
 
 ### 3-1) FastRCNN 
 - code: `Object-detection_FastRCNN_train.ipynb`
-- 
+- Object detection 모델 중 하나인 `FastRCNN`의 train을 진행하였습니다. 사물의 이미지에서 바코드 부분을 인식하는 기능을 수행합니다.
 
 ### 3-2) DAE 
 - code: `Barcode_Scanning_Final(Fastrcnn_DAE).ipynb`
-- 
+- 바코드 이미지를 훼손된 바코드로 변형시키기 위해 임의로 노이즈를 부여하였습니다. 훼손된 바코드를 원본 이미지로 복원시키는 DAE 모델 train 코드입니다.
 
 ### 3-3) Prototype 
 - code: `Barcode_Scanning_Final(Fastrcnn_DAE).ipynb`
-- 
 
 
 ## 4. 보완점
